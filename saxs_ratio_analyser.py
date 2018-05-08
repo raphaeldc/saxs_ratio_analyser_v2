@@ -21,7 +21,7 @@ def saxs_plot_log(files, begin, end, struc, first_peak, cor, graph):
     else:
         return
 
-
+print('test')
 saxs_plot_log(['ra_10LA_1_norm_minus_agua_7_norm.dat'],20,100,'Pn3m',1.3, 'k', False)
 saxs_plot_log(['ra_10LH_1_norm_minus_agua_7_norm.dat'],20,100,'Pn3m',1.2, 'r', False)
 
