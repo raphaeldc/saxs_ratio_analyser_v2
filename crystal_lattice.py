@@ -1,6 +1,8 @@
 # Cubic structures
 import numpy as np
 
+lines = np.array(['c','m','y','k','r','g','b'])
+
 ratios = {
             'Im3m': np.array([np.sqrt(2 / 2), np.sqrt(4 / 2), np.sqrt(6 / 2), np.sqrt(8 / 2), np.sqrt(10 / 2), np.sqrt(12 / 2),
                      np.sqrt(14 / 2)]),
