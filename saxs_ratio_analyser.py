@@ -41,4 +41,4 @@ def saxs_plot_log_2(files, strucs, first_peaks, begin=0, end=0, graph=True):
         return
 
 #saxs_plot_log(['ra_10LA_1_norm_minus_agua_7_norm.dat'], 'Pn3m', 1.3, 'k', begin=20, end=100, graph=True)
-saxs_plot_log_2(['ra_10LH_1_norm_minus_agua_7_norm.dat','ra_10LA_1_norm_minus_agua_7_norm.dat'], ['Fd3m', 'Pn3m'], [0.91, 1.3], begin=20, end=100, graph=True)
+saxs_plot_log_2(['ra_10LA_1_norm_minus_agua_7_norm.dat','ra_10LH_1_norm_minus_agua_7_norm.dat'], ['Fd3m', 'Pn3m','Pn3m'], [0.91, 1.21, 1.3], begin=20, end=100, graph=True)
