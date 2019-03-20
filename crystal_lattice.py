@@ -13,7 +13,8 @@ ratios = {
             'Fd3m': np.array([np.sqrt(3 / 3), np.sqrt(8 / 3), np.sqrt(11 / 3), np.sqrt(12 / 3), np.sqrt(16 / 3), np.sqrt(19 / 3),
                      np.sqrt(24 / 3)]),
             'Hex': np.array([np.sqrt(1 / 1), np.sqrt(3 / 1), np.sqrt(4 / 1), np.sqrt(6 / 1), np.sqrt(12 / 1), np.sqrt(13 / 1),
-                     np.sqrt(24 / 3)])
+                     np.sqrt(24 / 3)]),
+            'Lamellar': np.array([1,2,3,4,5,6,7])
 }
 
 crystals = {
@@ -26,6 +27,7 @@ crystals = {
             'Fd3m': np.array([np.sqrt(3), np.sqrt(8), np.sqrt(11), np.sqrt(12), np.sqrt(16), np.sqrt(19),
                      np.sqrt(24)]),
             'Hex': np.array([np.sqrt(1), np.sqrt(3), np.sqrt(4), np.sqrt(6), np.sqrt(12), np.sqrt(13),
-                     np.sqrt(24)])
+                     np.sqrt(24)]),
+            'Lamellar': np.array([1,2,3,4,5,6,7])
 
 }
